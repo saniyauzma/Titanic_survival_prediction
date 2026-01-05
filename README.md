@@ -50,6 +50,7 @@ Real-Time Predictions via Kafka Consumer
 
 - **Original**: `train.csv` and `test.csv` (download from [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)).
 - **Cleaned**: `cleaned_train.csv`, `cleaned_test.csv` (preprocessed versions with handled missing values, encoded features).
+- **Featured**: featured_train.csv, featured_test.csv (Final versions with engineered features like Title, FamilySize, and IsAlone, ready for model input).
 
 ## Files
 
@@ -64,8 +65,8 @@ Real-Time Predictions via Kafka Consumer
 
 ## Model Details
 
-- **Algorithm**: Logistic Regression
-- **Performance**: Accuracy ~82% on test set, with precision, recall, and F1-score metrics.
+- **Algorithm**: Gradient Boosting
+- **Performance**: Accuracy ~83% on test set, with precision, recall, and F1-score metrics.
 - **Features**: Passenger class, age, gender, fare, embarked port, etc.
 
 ## GitHub Repository
@@ -85,6 +86,6 @@ Real-Time Predictions via Kafka Consumer
 - [x] Trained model
 - [x] Interactive UI
 - [x] GitHub repository
-- [ ] Video demo (upload and link)
+- [x] Video demo 
 - [x] Optional: Real-time system (code provided)
 
