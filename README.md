@@ -75,15 +75,8 @@ Real-Time Predictions via Kafka Consumer
 
 ## Video Demo
 
-A 5-10 minute video demonstration is required, covering:
-- Project introduction
-- EDA walkthrough
-- Model training and evaluation
-- Streamlit UI demonstration
+**Video Link**: https://youtu.be/UjmtuXEgXNA
 
-Upload the video to YouTube or Vimeo and update this section with the link.
-
-**Video Link**: [Insert link here after uploading]
 
 ## Submission Checklist
 
